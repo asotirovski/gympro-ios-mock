@@ -1,0 +1,40 @@
+{% extends "layout.nunjucks" %}
+
+{% block header %}
+    <h1 class="title">Progress</h1>
+    <a href="#select-client-modal" 
+       class="icon icon-person pull-right" 
+       data-transition="slide-in"></a>
+{% endblock %}
+
+{% block content %}
+    {% include "partials/current_client.nunjucks" %}
+    
+    <ul class="table-view">
+        <li class="table-view-cell">
+            <a class="navigate-right" href="programs.html" data-transition="slide-in">Programs</a>
+        </li>
+        <li class="table-view-cell">
+            <a class="navigate-right" href="nutrition.html" data-transition="slide-in">Nutrition</a>
+        </li>
+    </ul>
+
+    <div class="content-padded">
+        <h6>ASSESSMENTS</h6>
+    </div>
+    <ul class="table-view">
+        <li class="table-view-cell">
+            <a class="navigate-right" href="weight.html" data-transition="slide-in">Weight</a>
+        </li>
+        <li class="table-view-cell">
+            <a class="navigate-right" href="girth.html">Girth</a>
+        </li>
+        <li class="table-view-cell">
+            <a class="navigate-right" href="skinfolds.html">Skinfolds</a>
+        </li>
+    </ul>
+{% endblock %}
+
+{% block nav %}
+    {{ nav.active('progress') }}
+{% endblock %}

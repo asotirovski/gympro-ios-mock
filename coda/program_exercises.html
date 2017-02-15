@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Gympro</title>
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <!-- Let's load some assets -->
+        <link rel="stylesheet" href="assets/ratchet/css/ratchet.min.css">
+        <link rel="stylesheet" href="assets/ratchet/css/ratchet-theme-ios.css">
+        <link rel="stylesheet" href="assets/css/app.css">
+        <script src="assets/ratchet/js/ratchet.js"></script>
+    </head>
+    <body>
+        <header class="bar bar-nav grey-nav">
+            <a href="programs.php" class="icon icon-left-nav pull-left"></a>
+            <h1 class="title">Barbell max program</h1>
+        </header>
+        
+        <header class="bar bar-nav bar-header-secondary">
+            <div class="segmented-control">
+                <a class="control-item" href="program_detail.php">General</a>
+                <a class="control-item active" href="program_exercises.php">Program exercises</a>
+            </div>
+        </header>
+            
+        <div class="content">
+            <ul class="table-view">
+                <li class="table-view-divider">Monday <span class="badge" style="float: right;position:relative;margin-top:2px;margin-right:10px">Hey, that's today</span></li>
+                <li class="table-view-cell">
+                    <a class="navigate-right" href="#exercise-modal">
+                      A1: Bench Press
+                    </a>
+                </li>
+                <li class="table-view-cell">
+                    <a class="navigate-right">
+                      A2: Deadlift
+                    </a>
+                </li>
+                <li class="table-view-cell">
+                    <a class="navigate-right">
+                      Shoulder Press
+                    </a>
+                </li>
+                <li class="table-view-divider">Wednesday</li>
+                <li class="table-view-cell">
+                    <a class="navigate-right">
+                      Bench Press
+                    </a>
+                </li>
+                <li class="table-view-cell">
+                    <a class="navigate-right">
+                      B1: Deadlift
+                    </a>
+                </li>
+                <li class="table-view-cell">
+                    <a class="navigate-right">
+                      B2: Shoulder Press
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div id="exercise-modal" class="modal">
+            <header class="bar bar-nav">
+                <a class="icon icon-close pull-right modal-close" href="#exercise-modal"></a>
+                <h1 class="title">Bench Press</h1>
+            </header>
+            <div class="content">
+                <div class="content-padded">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br/><br/>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </div>
+            </div>
+        </div>
+        <nav class="bar bar-tab grey-footer">
+            <a class="tab-item active" href="clients.html">
+                <span class="icon fa fa-users"></span>
+                <span class="tab-label">Clients</span>
+            </a>
+            <a class="tab-item" href="progress.html">
+                <span class="icon fa fa-clock-o"></span>
+                <span class="tab-label">Progress</span>
+            </a>
+            <a class="tab-item" href="settings_tab.html">
+                <span class="icon fa fa-cog"></span>
+                <span class="tab-label">Account</span>
+            </a>
+        </nav>
+    </body>
+</html>

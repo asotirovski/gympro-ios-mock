@@ -1,0 +1,24 @@
+{
+    "clients": [
+        {
+            "first_name": "Azelia",
+            "last_name": "Banks"
+        }, 
+        {
+            "first_name": "Frank",
+            "last_name": "Ocean"
+        }, 
+        {
+            "first_name": "Kanye",
+            "last_name": "West"
+        }, 
+        {
+            "first_name": "Shaun",
+            "last_name": "Carter"
+        }, 
+        {
+            "first_name": "Wesley",
+            "last_name": "Pence"
+        }
+    ]
+}

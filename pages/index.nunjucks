@@ -1,0 +1,21 @@
+{% extends "layout.nunjucks" %}
+
+<header class="bar bar-nav grey-nav">
+    <a href="javascript:;" class="icon fa fa-fw fa-search pull-left" data-transition="slide-in"></a>
+    <a href="addsession.html" class="icon fa fa-plus-circle pull-right" data-transition="slide-in"></a>
+    <h1 class="title">Clients</h1>
+</header>
+
+{% block content %}
+    <ul class="table-view">
+        {% for client in clients %}
+            <li class="table-view-cell">
+                <a class="navigate-right">{{ client.first_name }} {{ client.last_name }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+{% endblock %}
+
+{% block nav %}
+    {{ nav.active('progress') }}
+{% endblock %}

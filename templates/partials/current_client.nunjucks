@@ -1,0 +1,10 @@
+<ul class="table-view" id="current-client">
+  <li class="table-view-cell media">
+    <a class="navigate-right">
+        <img class="media-object pull-left" src="static/img/kanye.jpg">
+        <div class="media-body">
+            Kanye West <p>Last seen: Today 3:34pm</p>
+        </div>
+    </a>
+  </li>
+</ul>

@@ -1,0 +1,47 @@
+.content { background-color: #fff }
+.content-padded { margin: 10px 10px 10px 15px }
+
+#current-client {
+    background: #ebebeb;
+    margin-top:0;
+    margin-bottom:0;
+    border-top:none
+}
+
+/* Header */
+.grey-nav {
+    background: #3a3a3a;
+    color:#9d9d9d;
+}
+
+.grey-nav a.icon { color:#fff }
+.grey-nav h1 {
+    color:#eccc10;
+    text-shadow: none;
+}
+
+/* Form */
+.input-row label { padding:11px 15px }
+.input-row { height:41px }
+
+/* Nav tabs */
+.bar-tab .tab-item.active { color:#3a3a3a }
+.bar-nav .btn-link, 
+.tab-item.active, 
+.tab-item:active {
+    color:#fff;
+}
+
+ul.table-view { margin-top:0 }
+.content>.table-view:first-child { margin-top: 0 }
+a.modal-close { color:#3a3a3a }
+.table-view .media-object.pull-left {
+    width: 40px;
+    border-radius: 50%;
+}
+
+/* Scheduler colors */
+.badge-paid { background-color:#74c080;color: #fff }
+.badge-prepaid { background-color: #56cdfc;color: #fff }
+.badge-noshow { background-color: #fa9f47;color: #fff }
+.badge-cancelled { background-color: #d64242;color: #fff }

@@ -1,0 +1,16 @@
+{% macro active(page='clients') %}
+    <nav class="bar bar-tab grey-footer">
+        <a class="tab-item{%if page == 'clients' %} active{% endif %}" href="clients.html">
+            <span class="icon icon-person"></span>
+            <span class="tab-label">Clients</span>
+        </a>
+        <a class="tab-item{%if page == 'progress' %} active{% endif %}" href="progress.html">
+            <span class="icon icon-list"></span>
+            <span class="tab-label">Progress</span>
+        </a>
+        <a class="tab-item{%if page == 'settings' %} active{% endif %}" href="settings_tab.html">
+            <span class="icon icon-gear"></span>
+            <span class="tab-label">Account</span>
+        </a>
+    </nav>
+{% endmacro %}
